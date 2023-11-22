@@ -15,21 +15,40 @@
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--color-text:white;
+	--color-background:#181C20;
 	
 
 }
 
 body{
 	font-family: 'Noto Sans', sans-serif;
+	color: var(--color-text);
+	background-color: var(--color-background);
 }
 
-img
+img{
+	display: flex;
+	width:15em ;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
+article {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+article:first-of-type {
+    background-image: url("./images/Senna_front.jpeg"); 
+    background-size: cover;
+    background-position: center;
+    
+}
 
 /****************/
 /* JOUW STYLING */
 /****************/
 
 /* jouw code */
-
