@@ -47,9 +47,11 @@ article:first-of-type {
     
 }
 
-header ul{
-	display: block;
-	
+
+
+
+ul{
+	list-style-type: none;
 }
 /****************/
 /* JOUW STYLING */
