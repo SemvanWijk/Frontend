@@ -17,11 +17,15 @@
 	/* startje */
 	--color-text:#111;
 	--color-background:#eee;
+	
+
 }
 
+body{
+	font-family: 'Noto Sans', sans-serif;
+}
 
-
-
+img
 
 /****************/
 /* JOUW STYLING */
