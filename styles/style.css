@@ -44,6 +44,9 @@ img{
 	margin: 0;
 	padding: 0;
 }
+h1, h2,h3, h4{
+	font-weight: lighter;
+}
 
 article {
     width: 100%;
@@ -55,7 +58,30 @@ article {
 	padding: 1em;
 }
 
-article:first-of-type {
+article:nth-of-type(1) {
+    background-image: url("../images/Senna_header.jpeg"); 
+    background-size:50em;
+	background-repeat: no-repeat;
+    background-position: top;
+	margin: 0 auto;
+	
+    
+}
+
+article:nth-of-type(1) h1{
+	margin-top: 10em;
+}
+
+article:nth-of-type(2){
+	background-image: linear-gradient(to top right, #323B3F, #262C30, #1B2023);
+
+}
+
+
+
+
+
+article:nth-of-type(3) {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Senna_front.jpeg"); 
     background-size:37em ;
 	background-repeat: no-repeat;
@@ -69,7 +95,7 @@ article h4{
     
 }
 
-article:nth-of-type(2) {
+article:nth-of-type(4) {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Senna_side.jpeg"); 
     background-size:37em ;
 	background-repeat: no-repeat;
@@ -78,7 +104,7 @@ article:nth-of-type(2) {
 
 }
 
-article:nth-of-type(3) {
+article:nth-of-type(5) {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Senna_zoom.jpeg"); 
     background-size:37em ;
 	background-repeat: no-repeat;
@@ -87,7 +113,7 @@ article:nth-of-type(3) {
 
 }
 
-article:nth-of-type(4) {
+article:nth-of-type(6) {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Senna_back.jpeg"); 
     background-size:37em ;
 	background-repeat: no-repeat;
@@ -96,7 +122,7 @@ article:nth-of-type(4) {
 
 }
 
-article:nth-of-type(5) {
+article:nth-of-type(7) {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Ayrton_senna.jpeg"); 
     background-size:37em ;
 	background-repeat: no-repeat;
@@ -105,7 +131,7 @@ article:nth-of-type(5) {
 
 }
 
-article:last-of-type {
+article:nth-of-type(8){
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Senna_side.jpeg"); 
     background-size:37em ;
 	background-repeat: no-repeat;
