@@ -21,8 +21,18 @@
 
 }
 
+@font-face {
+    font-family: "SohoGothicPro-Light";
+    src: url("https://db.onlinewebfonts.com/t/287a99eeca9e0e12030e79954d92d6fd.eot");
+    src: url("https://db.onlinewebfonts.com/t/287a99eeca9e0e12030e79954d92d6fd.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/287a99eeca9e0e12030e79954d92d6fd.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/287a99eeca9e0e12030e79954d92d6fd.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/287a99eeca9e0e12030e79954d92d6fd.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/287a99eeca9e0e12030e79954d92d6fd.svg#SohoGothicPro-Light")format("svg");
+}
+
 body{
-	font-family: 'Noto Sans', sans-serif;
+	font-family: "SohoGothicPro-Light";
 	color: var(--color-text);
 	background-color: var(--color-background);
 }
@@ -38,23 +48,73 @@ img{
 article {
     width: 100%;
     box-sizing: border-box;
+	font-weight:200;
+	font-size: 0.8em;
+	font-display: swap;
+	font-style: normal;
+	padding: 1em;
 }
 
 article:first-of-type {
-    background-image: url("./images/Senna_front.jpeg"); 
-    background-size: cover;
-    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Senna_front.jpeg"); 
+    background-size:37em ;
+	background-repeat: no-repeat;
+    background-position: top;
+	
     
 }
 
+article h4{
+    margin-bottom: 15em;
+    
+}
+
+article:nth-of-type(2) {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Senna_side.jpeg"); 
+    background-size:37em ;
+	background-repeat: no-repeat;
+    background-position: top;
 
 
+}
+
+article:nth-of-type(3) {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Senna_zoom.jpeg"); 
+    background-size:37em ;
+	background-repeat: no-repeat;
+    background-position: top;
+
+
+}
+
+article:nth-of-type(4) {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Senna_back.jpeg"); 
+    background-size:37em ;
+	background-repeat: no-repeat;
+    background-position: top;
+
+
+}
+
+article:nth-of-type(5) {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Ayrton_senna.jpeg"); 
+    background-size:37em ;
+	background-repeat: no-repeat;
+    background-position: top;
+
+
+}
+
+article:last-of-type {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Senna_side.jpeg"); 
+    background-size:37em ;
+	background-repeat: no-repeat;
+    background-position: top;
+
+
+}
 
 ul{
 	list-style-type: none;
 }
-/****************/
-/* JOUW STYLING */
-/****************/
 
-/* jouw code */
