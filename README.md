@@ -92,7 +92,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
   
-  Html inhoud af en begonnen aan de css van pagina 1(imgages/standvanzaken1.png)
+  Html inhoud af en begonnen aan de css van pagina 1(images/standvanzaken1.png)
   
 
 
@@ -107,10 +107,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  -article naar section 
+  h4 naar h2
+  h3 naar p
+  meer p dan per section
+  afkorting <abbr titel>
+  hoofdletters met css
+  footer h4 naar h2 en kopje bij leke list
+  achtergronden zijn content dus moeten als img in de html
 
 </details>
 
