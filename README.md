@@ -115,6 +115,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   hoofdletters met css
   footer h4 naar h2 en kopje bij leke list
   achtergronden zijn content dus moeten als img in de html
+  nav in footer
 
 </details>
 
