@@ -141,6 +141,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
+Sem: Hero, hamburger en images, CSS
+Kaylin: Semantiek, CSS
+Diya: Filter, CSS
+Insa: ziek
+
+
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
